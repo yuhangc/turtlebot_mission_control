@@ -1,6 +1,6 @@
 # turtlebot_mission_control
 
-Some bare-bones starter code for the AA274 project -- feel free to use all or none of it. Clone into your `~/catkin_ws` (perhaps "Fork" this repo first, using the button in the top right of this page, if you want to use github to develop this code as a group) and run
+Code for the AA274 project -- autonomous navigation in a maze. The robot first explores the maze and builds a map, then autonomously navigates to goal positions published to `/mission` topic. Use
 ```bash
 roslaunch turtlebot_mission_control mission.launch
 ```
